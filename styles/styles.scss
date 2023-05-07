@@ -382,6 +382,16 @@ section {
     text-align: center;
     padding: 3.5rem 0;
     position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-grey-5);
+        transform: translate(-50%);
+    }
 }
 
 // Timeline
